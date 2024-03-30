@@ -3,7 +3,7 @@ SOLID es un acrónimo que proviene de los principios de la programación orienta
 **Los cinco principios estan diseñados para ayudarnos a escribir software de alta calidad, modular, mantenible y escalable.**
 ***
 ## Los Principios SOLID
-Los 5 principios SOLID de diseño de aplicaciones de software son:
+Los 5 principios SOLID de diseño de aplicaciones de software son:  
 **- S: Principio de Responsabilidad Única o Single Responsibility Principle (SRP)**  
 **- O: Principio de Abierto/Cerrado o Open/Closed Principle (OCP)**  
 **- L: Principio de Sustitución de Liskov o Liskov Substitution Principle (LSP)**  
