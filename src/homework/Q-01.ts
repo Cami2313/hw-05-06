@@ -6,73 +6,76 @@
   */
 
   //lista de emails de usuarios de Meta-X
-  const l: Array<string> = [
+  let metaXUsersEmails: Array<string> = [
     "email1@gmail.com", 
-    "email1@gmail.com", 
-    "email1@gmail.com"
+    "email2@gmail.com", 
+    "email3@gmail.com"
   ];
 
-  console.log(l);
+  console.log(metaXUsersEmails);
 
   //Lista de compras de un carrito
-  const var2: Array<Object> = [
+  let shoppingCart: Array<Object> = [
     {product: "switch"},
     {product: "X-box Controller"},
     {product: "steam-gift-card"},
   ];
 
-  console.log(var2);
+  console.log(shoppingCart);
   
 
   //funcion para sumar mas 3 a un numero y retornarlo
-  const fff = (asdfg: number): number => {
-    return asdfg + 3;
+  let addition = (num: number): number => {
+    return num + 3;
   }
 
-  console.log(fff(2));
+  console.log(addition(2));
   
   
   //funcion para capitalizar una palabra pasara por params
   //idente o refactorice de ser necesario
   //el resultado no deberia cambiar
-  function capi(w: string): string {
-    w.toLowerCase();    
-    const c = w.charAt(0).toUpperCase().toString().concat(w.substring(1, w.length));
-    return c;
-  }
+  let capitalizeWord = (word: string): string => {
+    return word.charAt(0).toUpperCase().concat(word.substring(1, word.length).toLowerCase());
+  };
 
-  console.log(capi("capricorn"));
+  console.log(capitalizeWord("capricorn"));
   
   //variable que alerta en caso de que algun evento suceda
-  let www: boolean = false;
+  const isActiveEvent: boolean = false;
 
-  if(www) console.log('event');
+  if(isActiveEvent) console.log('event');
 
   //variable que se encarga de verificar 
   //si un usuario puede acceder o no
-  let c: boolean = true;
+  const canUserAccess: boolean = true;
 
-  if(c) console.log('welcome');
+  if(canUserAccess) console.log('welcome');
   
 
   //variable para hallar el promedio de 3 numeros
-  const sudo: number = (1 + 2 + 3) / 3;
+  const averageOfNumbers: number = (1 + 2 + 3) / 3;
 
-  console.log(sudo);
+  console.log(averageOfNumbers);
   
   //variable que almacena el valor de PI
-  let pizza: number = 3.141592654;
+  const PI_NUMBER: number = 3.141592654;
 
-  console.log(pizza);
+  console.log(PI_NUMBER);
   
 
   //variabel que controla si un archivo es modificable 
-  let Bv: boolean = false;
+  const isThisFileEditable: boolean = false;
 
-  if(Bv) console.log('edit this file?');
+  if(isThisFileEditable) console.log('edit this file?');
   
   //variable para almacenar el valor de e
-  const eioua: number = 2.718281828; 
+  const E_VALUE: number = 2.718281828; 
 
+  console.log(E_VALUE);
 
 })();
+
+  /*Si en el futuro se añade código que cambie el valor de alguna de las variables booleanas de false a 
+  true, entonces sería apropiado cambiarlas de const a let. 
+  Por ahora, dado que sus valores no cambian, mantenerlas como const me parece una elección adecuada.*/
