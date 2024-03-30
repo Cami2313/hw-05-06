@@ -4,11 +4,11 @@ SOLID es un acrónimo que proviene de los principios de la programación orienta
 ***
 ## Los Principios SOLID
 Los 5 principios SOLID de diseño de aplicaciones de software son:
-**- S: Principio de Responsabilidad Única o Single Responsibility Principle (SRP)**
-**- O: Principio de Abierto/Cerrado o Open/Closed Principle (OCP)**
-**- L: Principio de Sustitución de Liskov o Liskov Substitution Principle (LSP)**
-**- I: Principio de Segregación de Interfaces o Interface Segregation Principle (ISP)**
-**- D: Principio de Inversión de Dependencias o Dependency Inversion Principle (DIP)**
+**- S: Principio de Responsabilidad Única o Single Responsibility Principle (SRP)**  
+**- O: Principio de Abierto/Cerrado o Open/Closed Principle (OCP)**  
+**- L: Principio de Sustitución de Liskov o Liskov Substitution Principle (LSP)**  
+**- I: Principio de Segregación de Interfaces o Interface Segregation Principle (ISP)**  
+**- D: Principio de Inversión de Dependencias o Dependency Inversion Principle (DIP)**  
 ***
 Mencionemos las principales características de cada uno de los principios.
 ### 1. Single Responsibility Principle
@@ -23,7 +23,7 @@ Este principio evita que las clases implementen métodos innecesarios y, en su l
 Este principio promueve la **flexibilidad** y la **facilidad de sustitución** de componentes, lo que hace que el sistema sea más resistente a los cambios y más fácil de probar.
 ***
 ## Beneficios de los principios SOLID
-*- En primer lugar, buscan la creación de un aplicación **eficaz**: es decir, que cumpla con su cometido de manera **confiable, robusta y estable, sin fallos inesperados**.*
-*- Además, estos principios promueven la escritura de un **código limpio y flexible** que pueda adaptarse sin complicaciones a las cambiantes necesidades del proyecto, fomentando la **reutilización y la mantenibilidad**.*
-*- Por último, SOLID aspira a permitir la **escalabilidad**, facilitando la incorporación ágil de nuevas funcionalidades a medida que el software evoluciona, sin que ello implique una reescritura masiva.*
+*- En primer lugar, buscan la creación de un aplicación **eficaz**: es decir, que cumpla con su cometido de manera **confiable, robusta y estable, sin fallos inesperados**.*  
+*- Además, estos principios promueven la escritura de un **código limpio y flexible** que pueda adaptarse sin complicaciones a las cambiantes necesidades del proyecto, fomentando la **reutilización y la mantenibilidad**.*  
+*- Por último, SOLID aspira a permitir la **escalabilidad**, facilitando la incorporación ágil de nuevas funcionalidades a medida que el software evoluciona, sin que ello implique una reescritura masiva.*  
 ***
